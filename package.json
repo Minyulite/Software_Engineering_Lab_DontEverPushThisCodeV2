@@ -7,14 +7,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "snyk:test": "snyk test",
+    "snyk:auth": "snyk auth",
+    "snyk:monitor": "snyk monitor",
+    "snyk:version": "snyk --version"
   },
   "dependencies": {
+    "axios": "0.21.1",
+    "lodash": "4.17.20",
     "next": "13.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "lodash": "4.17.20",
-    "axios": "0.21.1"
+    "snyk": "^1.1308.4"
   },
   "devDependencies": {
     "eslint": "8.0.0",
